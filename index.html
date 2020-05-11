@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset="utf-8">
+    <title>my_web</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    </head>
+  <body>
+    <!--header始まり-->
+    <header>
+      <div class="container">
+        <a  href="#main-id" class="header-left">HOME</a>
+        <ul class="header-right">
+          <li><a href="#contact-id">Contact</a></li>
+          <li><a href="#library-id">Library</a></li>
+          <li><a href="#introduction-id">Introduction</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <!--動画-->
+    <video src="video/aa.mp4" loop autoplay muted></video>
+    <!--main始まり-->
+    <div id="main-id" class="main">
+      <!--1 name画面-->
+      <div class="top-wrapper container">
+            <div class="name">
+              <h1 id="gg">Kotaro Ohama</h1>
+            </div>
+      </div>
+    </div>
+
+    <!--2 introduction始まり-->
+    <div id="introduction-id" class="introduction">
+    <div class="container">
+      <div class="introduction-title">
+      <h1>introduction</h1>
+      </div>
+      <!--自己紹介ひだり-->
+      <div class="introduction-left">
+        <img class="introduction-img" src="img/IMG_3409.jpeg" height="40%" width="40%">
+      </div>
+      <div class="introduction-right">
+        <div class="profile">
+        <h2>profile</h2>
+        <p>Name:  kotaro ohama</p>
+        <p >from:  Okinawa</p>
+        <p>Date of birth:  1998.10.23</p>
+        <p>Blood type:  A</p>
+        <p>Occupation:<br>Okinawa International University<br>Faculty of Economics Department of Economics</p>
+        <p>And last but not least:<br>Thank you for visiting this site.  I am a 10th year student at Code Base and am a beginner in programming.  I'm still studying, so I hope you can see this site to the end.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--library-->
+    <div id="library-id" class="library container">
+      <div class="introduction-title">
+        <h1>library</h1>
+      </div>
+          <div class="change-btn-wrapper">
+            <div class="change-btn prev-btn">prev</div>
+            <div class="change-btn next-btn">next</div>
+          </div>
+          <ul class="slides">
+            <li class="slide active"><img src="img/s1.jpeg"></li>
+            <li class="slide"><img src="img/s2.JPG"></li>
+            <li class="slide"><img src="img/s3.JPG"></li>
+            <li class="slide"><img src="img/s4.JPG"></li>
+            <li class="slide"><img src="img/s5.JPG"></li>
+          </ul>
+          <div class="index-btn-wrapper">
+            <div class="index-btn">Ⅰ</div>
+            <div class="index-btn">Ⅱ</div>
+            <div class="index-btn">Ⅲ</div>
+            <div class="index-btn">Ⅳ</div>
+            <div class="index-btn">Ⅴ</div>
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--contact-->
+    <div id="contact-id" class="contact">
+      <div class="contact-form container">
+        <div class="contact-title"><h1>contact</h1></div>
+        <div class="mail"><p>Email</p>
+        <input></div>
+        <p>message</p>
+        <textarea></textarea>
+        <p></p>
+        <div class="contact-send"><input class="contact-submit" type="submit" value="send"></div>
+      </div>
+    </div>
+    </div>
+        
+        
+
+
+    </div>
+
+    <!--footer始まり-->
+    <footer>
+      <h5 class="footer-name container">Kotaro Ohama</h5>
+    </footer>
+    <!--/body前の読み込み-->
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="./jquery.transit.js"></script>
+    <script type="text/javascript" src="./jquery.textFx.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
